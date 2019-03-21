@@ -18,15 +18,22 @@ ga('send', 'pageview');
 
 
   
-  <title>タグ: photowalk | 画処理おじさんの備忘録</title>
+  <title>Gitについて | 画処理おじさんの備忘録</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="画処理おじさんの備忘録">
-<meta property="og:url" content="http://pokabu55.github.io/tags/photowalk/index.html">
+  <meta name="description" content="社内での Git 運用について ようやくsubversion を止めて git で運用していくこととなったが、チーム内に完全に理解している人がおらず、困ってしまうことも。 先日、理由あって特定のファイルだけ push しようとしたが、誰も分からず。 一旦、git stash で変更分を退避させ、後に git stash pop で戻すことに。 当面はこの運用になりそう。 まだまだ、下記の図（SOF">
+<meta name="keywords" content="git">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Gitについて">
+<meta property="og:url" content="http://pokabu55.github.io/2019/03/21/Gitについて/index.html">
 <meta property="og:site_name" content="画処理おじさんの備忘録">
+<meta property="og:description" content="社内での Git 運用について ようやくsubversion を止めて git で運用していくこととなったが、チーム内に完全に理解している人がおらず、困ってしまうことも。 先日、理由あって特定のファイルだけ push しようとしたが、誰も分からず。 一旦、git stash で変更分を退避させ、後に git stash pop で戻すことに。 当面はこの運用になりそう。 まだまだ、下記の図（SOF">
 <meta property="og:locale" content="ja">
+<meta property="og:image" content="https://raw.githubusercontent.com/pokabu55/images/master/git.png">
+<meta property="og:updated_time" content="2019-03-21T12:30:33.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="画処理おじさんの備忘録">
+<meta name="twitter:title" content="Gitについて">
+<meta name="twitter:description" content="社内での Git 運用について ようやくsubversion を止めて git で運用していくこととなったが、チーム内に完全に理解している人がおらず、困ってしまうことも。 先日、理由あって特定のファイルだけ push しようとしたが、誰も分からず。 一旦、git stash で変更分を退避させ、後に git stash pop で戻すことに。 当面はこの運用になりそう。 まだまだ、下記の図（SOF">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/pokabu55/images/master/git.png">
   
     <link rel="alternate" href="/atom.xml" title="画処理おじさんの備忘録" type="application/atom+xml">
   
@@ -77,41 +84,84 @@ ga('send', 'pageview');
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2019/03/16/お台場で桜を見てきました/" class="archive-article-date">
-  <time datetime="2019-03-16T12:33:15.000Z" itemprop="datePublished">3月 16</time>
+        <section id="main"><article id="post-Gitについて" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/03/21/Gitについて/" class="article-date">
+  <time datetime="2019-03-21T07:30:38.000Z" itemprop="datePublished">2019-03-21</time>
 </a>
-      
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/技術メモ/">技術メモ</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/03/16/お台場で桜を見てきました/">フォトウォーク＠お台場</a>
+    <h1 class="article-title" itemprop="name">
+      Gitについて
     </h1>
   
 
-    </header>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="社内での-Git-運用について"><a href="#社内での-Git-運用について" class="headerlink" title="社内での Git 運用について"></a>社内での Git 運用について</h3><ul>
+<li>ようやくsubversion を止めて git で運用していくこととなったが、チーム内に完全に理解している人がおらず、困ってしまうことも。</li>
+<li>先日、理由あって特定のファイルだけ push しようとしたが、誰も分からず。</li>
+<li>一旦、<code>git stash</code> で変更分を退避させ、後に <code>git stash pop</code> で戻すことに。</li>
+<li>当面はこの運用になりそう。</li>
+<li>まだまだ、下記の図（<a href="https://www.softel.co.jp/blogs/tech/archives/3691" target="_blank" rel="noopener">SOFTELさんからの引用</a>)を頭の中に思い浮かべ、確認しながら作業している状況。</li>
+<li>早く慣れたいな…。</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/pokabu55/images/master/git.png" width="300px" align="left"><br><br style="clear:left;"></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://pokabu55.github.io/2019/03/21/Gitについて/" data-id="cjtimi2nu00006p0q9g0f80qr" class="article-share-link">共有</a>
+      
+        <a href="http://pokabu55.github.io/2019/03/21/Gitについて/#disqus_thread" class="article-comment-link">コメント</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li></ul>
+
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2019/03/21/満月！/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">次の記事</strong>
+      <div class="article-nav-title">
+        
+          満月！
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2019/03/16/お台場で桜を見てきました/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">前の記事</strong>
+      <div class="article-nav-title">フォトウォーク＠お台場</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
 
 
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
 </section>
         
           <aside id="sidebar">
@@ -217,11 +267,13 @@ ga('send', 'pageview');
 <script>
   var disqus_shortname = 'https-pokabu55-github-io-2';
   
+  var disqus_url = 'http://pokabu55.github.io/2019/03/21/Gitについて/';
+  
   (function(){
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();
 </script>
